@@ -13,7 +13,7 @@ const Login = ({ onLogin }) => {
       alert('Login successfully');
       navigate('/dashboard');
     } else {
-      alert('Invalid credentials');
+      alert('Invalid credentials, Please use admin as username and password as password');
     }
   };
 
